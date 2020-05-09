@@ -10,7 +10,7 @@ namespace DemoWebApp.Tests
     public class CalculatorTests
     {
         [Test]
-        [TestCase(10, 20, 31)]
+        [TestCase(10, 20, 30)]
         [TestCase(10.5, 1.5, 12)]
         public void SumTest(double numberA, double numberB, double sumExpected)
         {
