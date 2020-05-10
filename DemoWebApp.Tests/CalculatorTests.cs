@@ -14,6 +14,7 @@ namespace DemoWebApp.Tests
         [TestCase(10.5, 1.5, 12)]
         public void SumTest(double numberA, double numberB, double sumExpected)
         {
+            //sum two numbers
             var calculator = new Calculator();
             var sum = calculator.Sum(numberA, numberB);
             Assert.AreEqual(sumExpected, sum);
